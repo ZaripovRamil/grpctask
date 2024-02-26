@@ -1,0 +1,14 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+package measure;
+
+message Request { }
+
+message Response {
+  google.protobuf.Timestamp MeasureTime = 1;
+  double CelsiusDegrees = 2;
+}
+
+service WeatherService {
+  rpc WeatherStream (Request) returns (stream Response);
+}

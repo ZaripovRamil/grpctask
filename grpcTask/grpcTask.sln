@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "External.MeteoServiceClient", "External.MeteoServiceClient\External.MeteoServiceClient.csproj", "{60AC2696-B161-422C-B13D-0E7F389E9F47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcWeatherClient", "GrpcWeatherClient\GrpcWeatherClient.csproj", "{7467BFBE-BD00-4A46-B2C6-FA8D590A6582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcServer", "GrpcServer\GrpcServer.csproj", "{B86F1AF2-D199-46BB-BB7D-C6499D2D0A29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthentication", "JwtAuthentication\JwtAuthentication.csproj", "{05B4AD67-FF42-4818-9759-9EADC51BEC2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60AC2696-B161-422C-B13D-0E7F389E9F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AC2696-B161-422C-B13D-0E7F389E9F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AC2696-B161-422C-B13D-0E7F389E9F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AC2696-B161-422C-B13D-0E7F389E9F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7467BFBE-BD00-4A46-B2C6-FA8D590A6582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7467BFBE-BD00-4A46-B2C6-FA8D590A6582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7467BFBE-BD00-4A46-B2C6-FA8D590A6582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7467BFBE-BD00-4A46-B2C6-FA8D590A6582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86F1AF2-D199-46BB-BB7D-C6499D2D0A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86F1AF2-D199-46BB-BB7D-C6499D2D0A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86F1AF2-D199-46BB-BB7D-C6499D2D0A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86F1AF2-D199-46BB-BB7D-C6499D2D0A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B4AD67-FF42-4818-9759-9EADC51BEC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B4AD67-FF42-4818-9759-9EADC51BEC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B4AD67-FF42-4818-9759-9EADC51BEC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B4AD67-FF42-4818-9759-9EADC51BEC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
