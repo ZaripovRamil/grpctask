@@ -17,7 +17,7 @@ Task.Run(() =>
     Thread.Sleep(TimeSpan.FromSeconds(5));
     cancellationTokenSource.Cancel();
 });
-
+Thread.Sleep(TimeSpan.FromSeconds(1));
 responseStream.MoveNext();
 while (true)
 {
